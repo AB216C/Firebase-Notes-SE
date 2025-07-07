@@ -26,3 +26,11 @@ https://console.firebase.google.com/?pli=1
 8. Click "COntinue to COnsole"
 
 
+// MAIN GOAL FOR FIREBASE: TO BUILD API for front end developpers
+
+
+
+
+
+
+
