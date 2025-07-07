@@ -5,19 +5,19 @@ import { getAuth, type Auth } from "firebase/auth";
 //Contains the Firebase project's credentials and configuration details.
 //Need a New Credentials
 
-// const firebaseConfig = {
-//   authDomain: "fir-basics-project-1789e.firebaseapp.com",
-//   projectId: "fir-basics-project-1789e",
-//   storageBucket: "fir-basics-project-1789e.firebasestorage.app",
-//   messagingSenderId: "1055027258812",
-//   appId: "1:1055027258812:web:92f63740c9a606a53db7b9"
-// };
+const firebaseConfig = {
+  authDomain: "fir-basics-project-1789e.firebaseapp.com",
+  projectId: "fir-basics-project-1789e",
+  storageBucket: "fir-basics-project-1789e.firebasestorage.app",
+  messagingSenderId: "1055027258812",
+  appId: "1:1055027258812:web:92f63740c9a606a53db7b9"
+};
 
 // Initialize Firebase
-// const app = initializeApp(firebaseConfig);
-// const auth: Auth = getAuth(app);
+const app = initializeApp(firebaseConfig);
+const auth: Auth = getAuth(app);
 
-// export { auth };
+export { auth };
 
 
 
