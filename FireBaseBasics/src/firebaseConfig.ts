@@ -5,7 +5,10 @@ import { getAuth, type Auth } from "firebase/auth";
 //Contains the Firebase project's credentials and configuration details.
 //Need a New Credentials
 
+console.log("API KEY:", import.meta.env.VITE_FIREBASE_API_KEY)
+
 const firebaseConfig = {
+  apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
   authDomain: "fir-basics-project-1789e.firebaseapp.com",
   projectId: "fir-basics-project-1789e",
   storageBucket: "fir-basics-project-1789e.firebasestorage.app",
