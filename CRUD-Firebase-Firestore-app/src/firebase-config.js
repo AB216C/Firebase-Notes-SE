@@ -2,8 +2,10 @@
 import { initializeApp } from "firebase/app";  //Initiating firebase connection
 import { getFirestore } from "@firebase/firestore";
 
+const apiKey = import.meta.env.VITE_FIREBASE_API_KEY;
+
+
 const firebaseConfig = {
-  apiKey: "AIzaSyBdevP6bcWbiAd-Wav7ksAVbvOH43fuhVA",
   authDomain: "crud-project-8248e.firebaseapp.com",
   projectId: "crud-project-8248e",
   storageBucket: "crud-project-8248e.firebasestorage.app",
